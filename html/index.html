@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/index.css">
     <script defer src="../scripts/index.js"></script>
     <link rel="icon" href="favicon.ico" type="">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="../css/main.css">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Verge System</title>
@@ -14,20 +14,20 @@
 <body>
 <div class="parent">
     <div class="banner">
-        <a href="mailto:hr@vergesystem.com" class="mail"><i id="sub-icon" class="fa-solid fa-envelope"></i>hr@vergesystem.com</a>
-        <marquee scrollamount="15" behavior="" direction="" class="discount">Best Discount on Exam Vouchers</marquee>
+        <a href="mailto:sales@vergesystem.com" class="mail"></i>sales@vergesystem.com</a>
+        <marquee scrollamount="15" behavior="" direction="" class="discount">SAVE BIG on trending IT certification exams! <span>Voucher Deals!!</span> Huge Discounts!!!</marquee>
         <div class="icon">
             <a href="" class="icon-2"><i class="fa-brands fa-square-instagram fa-2xl" style="color: #ffffff;"></i></i></a>
-            <a href="https://www.linkedin.com/in/verge-systems-99778a304/" target="_blank" class="icon-2"><i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i></a>
+            <a href="https://www.linkedin.com/company/verge-system-com/" target="_blank" class="icon-2"><i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i></a>
             <a href="" class="icon-2"><i class="fa-brands fa-square-facebook fa-2xl" style="color: #ffffff;"></i></a>
         </div>
     </div>
     <nav>
         <div class="container">
-            <a href="#" class="logo"><img src="../images/Verge System Logo.png" alt="Logo"></a>
+            <a href="#" class="logo"><img src="../images/Verge System Logo New.jpg" alt="Logo"></a>
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Vouchers</a></li>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="./vouchers.html">Vouchers</a></li>
                 <!-- <li><a href="#">Services</a></li> -->
                 <li><a href="./training.html">Training</a></li>
                 <li><a href="./contact.html">Contact</a></li>
@@ -38,41 +38,8 @@
         <img class="c-banner" src="../images/c-banner.png" alt="BANNER">
     </div>
     <div class="slider">
-        <!-- <div class="slider">
-            <div class="vouchers">
-                <input type="radio" name="position" />
-                <input type="radio" name="position" />
-                <input type="radio" name="position" checked/>
-                <input type="radio" name="position" />
-                <input type="radio" name="position" />
-                <main id="carousel">
-                    <div class="item">
-                        <img src="../images/1.png">
-                    </div>
-                    <div class="item">
-                        <img src="../images/2.png">
-                    </div>
-                    <div class="item">
-                        <img src="../images/3.png">
-                    </div>
-                    <div class="item">
-                        <img src="../images/4.png">
-                    </div>
-                    <div class="item">
-                        <img src="../images/5.png">
-                    </div>
-                </main>
-            </div>
-            <button class="arrow-btn prev-btn">&#10094;</button>
-            <button class="arrow-btn next-btn">&#10095;</button>
-        </div> -->
         
         <div class="vouchers">
-            <!-- <input type="radio" name="position" />
-            <input type="radio" name="position" />
-            <input type="radio" name="position" checked/>
-            <input type="radio" name="position" />
-            <input type="radio" name="position" /> -->
             <main id="carousel">
               <div class="item">
                 <img src="../images/1.png">
@@ -146,7 +113,7 @@ resetInterval();
 
 function resetInterval() {
 clearInterval(interval);
-interval = setInterval(nextSlide, 1700);
+interval = setInterval(nextSlide, 1400);
 }
 
 prevButton.addEventListener('click', prevSlide);
@@ -186,41 +153,17 @@ if (touchEndX - touchStartX > 50) {
 
 
     </script>
-<!-- 
-    <div class="slider">
-        <div class="carousel" id="carousel">
-            <div class="item">
-                <img src="../images/1.png">
-            </div>
-            <div class="item">
-                <img src="../images/2.png">
-            </div>
-            <div class="item">
-                <img src="../images/3.png">
-            </div>
-            <div class="item">
-                <img src="../images/4.png">
-            </div>
-            <div class="item">
-                <img src="../images/5.png">
-            </div>
-        </div>
-        <button class="prev-btn" onclick="prevSlide()">&lt;</button>
-        <button class="next-btn" onclick="nextSlide()">&gt;</button>
-    </div> -->
-    
-
     <div class="info-cards">
         <div class="card-1">
             <img src="../images/image 5.png" alt="Microsoft" class="card-logo">
             <div class="card-content">
                 <h5>Microsoft Exam</h5>
                 <h1>Microsoft Certification Exam Voucher</h1>
-                <p class="a">Actual Price</p>
-                <p class="b">Rs 000000</p>
+                <p class="a">Actual</p>
+                <p class="b">Rs 4,800 + tax</p>
                 <p class="c">Our Price</p>
-                <p class="d">Rs 000000</p>
-                <a href="#" class="view-more">View More</a>
+                <p class="d">Rs 4,250</p>
+                <a href="./vouchers.html#microsoft" class="view-more">View More</a>
               </div>
         </div>
         <div class="card-2">
@@ -230,11 +173,11 @@ if (touchEndX - touchStartX > 50) {
             <div class="card-content-2">
                 <h5>AWS Exam</h5>
                 <h1>AWS Certification Exam Voucher</h1>
-                <p class="a">Actual Price</p>
-                <p class="b">Rs 000000</p>
+                <p class="a">Actual</p>
+                <p class="b">Rs 8,335</p>
                 <p class="c">Our Price</p>
-                <p class="d">Rs 000000</p>
-                <a href="#" class="view-more">View More</a>
+                <p class="d">Rs 7,500</p>
+                <a href="./vouchers.html#aws" class="view-more">View More</a>
               </div>
         </div>
         <div class="card-3">
@@ -244,11 +187,11 @@ if (touchEndX - touchStartX > 50) {
             <div class="card-content-3">
                 <h5>Oracle Exam</h5>
                 <h1>Oracle Certification Exam Voucher</h1>
-                <p class="a">Actual Price</p>
-                <p class="b">Rs 000000</p>
+                <p class="a">Actual</p>
+                <p class="b">Rs 20,420.75</p>
                 <p class="c">Our Price</p>
-                <p class="d">Rs 000000</p>
-                <a href="#" class="view-more">View More</a>
+                <p class="d">Rs 16,450</p>
+                <a href="./vouchers.html#oracle" class="view-more">View More</a>
               </div>
         </div>
         <div class="card-4">
@@ -258,11 +201,11 @@ if (touchEndX - touchStartX > 50) {
             <div class="card-content-4">
                 <h5>Cisco Exam</h5>
                 <h1>Cisco Certification Exam Voucher</h1>
-                <p class="a">Actual Price</p>
-                <p class="b">Rs 000000</p>
+                <p class="a">Actual</p>
+                <p class="b">Rs 25,005</p>
                 <p class="c">Our Price</p>
-                <p class="d">Rs 000000</p>
-                <a href="#" class="view-more">View More</a>
+                <p class="d">Rs 24,650</p>
+                <a href="./vouchers.html#cisco" class="view-more">View More</a>
               </div>
         </div>
         <div class="card-5">
@@ -272,11 +215,11 @@ if (touchEndX - touchStartX > 50) {
             <div class="card-content-5">
                 <h5>Linux Exam</h5>
                 <h1>Linux Foundation Certification Exam Voucher</h1>
-                <p class="a">Actual Price</p>
-                <p class="b">Rs 000000</p>
+                <p class="a">Actual</p>
+                <p class="b">Rs 32,923.25</p>
                 <p class="c">Our Price</p>
-                <p class="d">Rs 000000</p>
-                <a href="#" class="view-more">View More</a>
+                <p class="d">Rs 29,550</p>
+                <a href="./vouchers.html#linux" class="view-more">View More</a>
               </div>
         </div>
     </div>
@@ -289,7 +232,7 @@ if (touchEndX - touchStartX > 50) {
                 <li><a href="contact.html">Contact</a></li>
             </ul>
             <div  class="logo-end">
-                <img  class="logo-copy" src="../images/Verge System Logo.png" alt="">
+                <img  class="logo-copy" src="../images/Verge System Logo New (1)_1.jpg" alt="">
             </div>
         </div>
         <div class="footer-contact">
@@ -304,7 +247,7 @@ if (touchEndX - touchStartX > 50) {
                 <a href="tel:+9104449786008">044-49786008 </a>
                 <br>
                 <br>
-                <a href="mailto:admin@thinkbigsoft.com">hr@vergesystem.com</a>
+                <a href="mailto:sales@vergesystem.com">sales@vergesystem.com</a>
             </div>
         </div>
     </footer>
